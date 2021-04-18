@@ -605,7 +605,14 @@ function lottery() {
 
     for (let i = 0; i < perCount; i++) {
       let luckyId = random(leftCount);
-      currentLuckys.push(basicData.leftUsers.splice(luckyId, 1)[0]);
+      if (currentPrize.type === 0){
+        currentLuckys.push(["000000", "可乐", "Cola"]);
+      }else {
+        console.log(basicData.leftUsers.splice(luckyId, 1)[0])
+        currentLuckys.push(basicData.leftUsers.splice(luckyId, 1)[0]);
+      }
+
+
       leftCount--;
       leftPrizeCount--;
 
@@ -780,6 +787,7 @@ function createHighlight() {
     yoffset = 1,
     highlight = [];
 
+  year = "2021"+ ""
   year.split("").forEach(n => {
     highlight = highlight.concat(
       NUMBER_MATRIX[n].map(item => {
@@ -788,6 +796,8 @@ function createHighlight() {
     );
     xoffset += step;
   });
+
+  console.log(highlight)
 
   return highlight;
 }

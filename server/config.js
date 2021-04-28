@@ -15,52 +15,52 @@ const prizes = [
   },
   {
     type: 1,
-    count: 5,
+    count: 1,
     text: "一等奖",
-    title: "Mac Pro",
-    img: "../img/mbp.jpg"
+    title: "戴森吸尘器",
+    img: "./img/dyson.jpg"
   },
   {
     type: 2,
-    count: 6,
-    text: "二等奖",
-    title: "华为 Mate30",
-    img: "../img/huawei.png"
+    count: 1,
+    text: "二等奖(一)",
+    title: "松下电饭煲",
+    img: "../img/dfb.jpg"
   },
   {
     type: 3,
-    count: 7,
-    text: "三等奖",
-    title: "Ipad Mini5",
-    img: "../img/ipad.jpg"
+    count: 1,
+    text: "二等奖(二)",
+    title: "美的电饭煲",
+    img: "../img/dfb.jpg"
   },
   {
     type: 4,
-    count: 8,
-    text: "四等奖",
-    title: "大疆无人机",
-    img: "../img/spark.jpg"
+    count: 1,
+    text: "三等奖(一)",
+    title: "膳魔师榨汁机",
+    img: "../img/thermos.jpg"
   },
   {
     type: 5,
-    count: 8,
-    text: "五等奖",
-    title: "Kindle",
-    img: "../img/kindle.jpg"
+    count: 1,
+    text: "三等奖(二)",
+    title: "陶瓷电热水壶套装",
+    img: "../img/dsh.jpg"
   },
   {
     type: 6,
-    count: 11,
-    text: "六等奖",
-    title: "漫步者蓝牙耳机",
-    img: "../img/edifier.jpg"
+    count: 1,
+    text: "三等奖(三)",
+    title: "国色青花碗碟套装",
+    img: "../img/qhwd.jpg"
   }
 ];
 
 /**
  * 一次抽取的奖品个数与prizes对应
  */
-const EACH_COUNT = [1, 5, 6, 7, 8, 8, 11];
+const EACH_COUNT = [1, 1, 1, 1, 1, 1, 1];
 
 /**
  * 卡片公司名称标识

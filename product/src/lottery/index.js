@@ -605,8 +605,8 @@ function lottery() {
 
     for (let i = 0; i < perCount; i++) {
       let luckyId = random(leftCount);
-      if (currentPrize.type === 0){
-        currentLuckys.push(["000000", "可乐", "Cola"]);
+      if (currentPrize.type === 1){
+        currentLuckys.push(["新婚快乐", "000888", "百年好合"]);
       }else {
         console.log(basicData.leftUsers.splice(luckyId, 1)[0])
         currentLuckys.push(basicData.leftUsers.splice(luckyId, 1)[0]);

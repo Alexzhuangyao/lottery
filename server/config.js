@@ -17,55 +17,76 @@ const prizes = [
     type: 1,
     count: 1,
     text: "一等奖",
-    title: "戴森吸尘器",
-    img: "./img/dyson.jpg"
+    title: "现金红包",
+    img: "./img/xjhb.jpg"
   },
   {
     type: 2,
     count: 1,
     text: "二等奖(一)",
-    title: "松下电饭煲",
-    img: "../img/dfb.jpg"
+    title: "摩飞多功能料理圆锅",
+    img: "../img/mf.jpg"
   },
   {
     type: 3,
     count: 1,
     text: "二等奖(二)",
-    title: "美的电饭煲",
-    img: "../img/dfb.jpg"
+    title: "海尔扫地机器人",
+    img: "../img/sdjqr.jpg"
   },
   {
     type: 4,
     count: 1,
-    text: "三等奖(一)",
-    title: "膳魔师榨汁机",
-    img: "../img/thermos.jpg"
+    text: "二等奖(三)",
+    title: "飞利浦电动牙刷",
+    img: "../img/ddys.jpg"
   },
   {
     type: 5,
     count: 1,
-    text: "三等奖(二)",
-    title: "陶瓷电热水壶套装",
-    img: "../img/dsh.jpg"
+    text: "三等奖(一)",
+    title: "小米变频塔扇",
+    img: "../img/bpts.jpg"
   },
   {
     type: 6,
     count: 1,
+    text: "三等奖(二)",
+    title: "srue早餐机",
+    img: "../img/zcj.jpg"
+  },
+  {
+    type: 7,
+    count: 1,
     text: "三等奖(三)",
-    title: "国色青花碗碟套装",
-    img: "../img/qhwd.jpg"
-  }
+    title: "苏泊尔烤箱",
+    img: "../img/sbekx.jpg"
+  },
+  {
+    type: 8,
+    count: 1,
+    text: "三等奖(四)",
+    title: "九阳养生壶",
+    img: "../img/ysh.jpg"
+  },
+  {
+    type: 9,
+    count: 1,
+    text: "三等奖(五)",
+    title: "小米恒温电热水壶",
+    img: "../img/drsh.jpg"
+  },
 ];
 
 /**
  * 一次抽取的奖品个数与prizes对应
  */
-const EACH_COUNT = [1, 1, 1, 1, 1, 1, 1];
+const EACH_COUNT = [1, 1, 1, 1, 1, 1, 1,1,1,1];
 
 /**
  * 卡片公司名称标识
  */
-const COMPANY = "小庄&小费";
+const COMPANY = "俊达&好雨";
 
 module.exports = {
   prizes,
